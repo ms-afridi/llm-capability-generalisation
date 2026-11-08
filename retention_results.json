@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Explain machine learning in simple terms.",
+        "answer_after": "Machine learning is a type of artificial intelligence that allows computers to learn from data and improve their performance over time. It involves using algorithms to analyze patterns in data and make predictions or decisions based on those patterns. Machine learning can be used for a wide range of applications such as image recognition, natural language processing, recommendation systems, etc."
+    },
+    {
+        "question": "What is the difference between supervised and unsupervised learning?",
+        "answer_after": "Supervised learning involves training a model on labeled data to learn patterns and relationships within that data. The goal of this process is to predict or classify new data based on the patterns learned from the labeled data. Unsupervised learning, on the other hand, involves training a model on unlabeled data to discover hidden patterns and relationships in the data. The goal of this process is to identify and extract insights from the data without any prior knowledge."
+    },
+    {
+        "question": "Write a Python function to calculate the factorial of a number.",
+        "answer_after": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "question": "Explain what a neural network is.",
+        "answer_after": "A neural network is a type of machine learning model that uses artificial neurons to process and analyze data. It consists of layers of interconnected nodes or \"neurons\" that work together to learn from the input data and generate output. Neural networks can be used for a variety of tasks such as image recognition, natural language processing, and predictive modeling. They are often used in deep learning applications where large amounts of data need to be processed and analyzed."
+    },
+    {
+        "question": "What are the limitations of a small language model?",
+        "answer_after": "A small language model has several limitations that make it less effective in certain tasks compared to larger models. Here are some key points:\n\n1. Limited Vocabulary: A small language model may have limited vocabulary, which can limit its ability to handle complex sentences and phrases.\n\n2. Limited Processing Power: Small models often require more processing power than larger models, making them slower for certain tasks.\n\n3. Limited Training Data: Small models may struggle with large amounts of training data, leading to poor performance on tasks requiring extensive data.\n\n4. Limited Interpretation: Small models may not be able to interpret complex or nuanced language, which can lead to errors in certain tasks.\n\n5. Limited Scalability: Small models may not scale well as they become too large, leading to performance issues when dealing with large datasets."
+    }
+]
